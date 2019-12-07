@@ -1,6 +1,7 @@
 html {
 	height:100%;
 	overflow-x:hidden;
+	
 }
 body {
 	text-align: center;
@@ -10,13 +11,9 @@ body {
 	height:100%;
 }
 @media only screen and (max-width: 768px) { 
-	.big {
-		padding-left:160px;
-		padding-bottom:300px;
-		top:287px !important;
-	} 
 	body {
 	background-size: 125%;
+	background-repeat:repeat;
 	}
 	.small p {
 	font-size:15px !important;
@@ -28,13 +25,20 @@ body {
 	bottom:20px;
 	}
 	#text {
-		margin-bottom:0px;
+	margin-bottom:0px;
+	}
+	.big {
+	position:absolute !important;
+	top:44% !important;
+	}
+	.actividad {
+	margin-left:15%;
 	}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 	.big {
-	margin-top:90px;
-	margin-right:150px;
+	right:420px !important;
+	top:38% !important;
 	}
 	.small p {
 	font-size:25px !important;
@@ -42,7 +46,6 @@ body {
 	.btn {
 	font-size: 17px !important;
 	}
-	
 }
 .btn {
 	background:#D744F1;
@@ -52,8 +55,8 @@ body {
 }
 .big {
 	position:relative;
-	top: 300px;
-	right: 150px;
+	top: 290px;
+	right: 200px;
 }
 .actividad {
 	font-size:32px !important;
